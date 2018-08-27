@@ -1,5 +1,5 @@
 
-The task that was given to me was to create a model to predict the name of the taster for a dataset of wine reviews. The data itself was a series of categorical columns. 
+The task that was given to me was to create a model to predict the name of the taster for a dataset of wine reviews. The data itself was a series of categorical columns, two numerical columns(price, points), and one text column(description). 
 
 I decided to look through the various aspects of the dataframe, to see what the data looked like. This includes drawing different graphs to look at the numerical features of price and points, looking at the text entries of the description column, and deciding which of the various features had the best types of information from which an algorithm could determine differences.  Given that the task for this assignment was to predict which taster gave which review, I found it critical to keep in all of the tasters, even though that did affect performance. Although I looked at the tasters with smaller numbers of reviews, and while I kept them in to prevent overfitting and to keep the task in mind, could see a successful model being built after taking out the tasters who did not have a "significant" number of reviews.
 
